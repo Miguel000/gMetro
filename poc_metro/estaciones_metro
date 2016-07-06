@@ -95,7 +95,7 @@
 		CREATE (:ESTACIÓN_METRO:LINEA_3:LINEA_5 { id:94,name:"Embajadores"})
 		CREATE (:ESTACIÓN_METRO:LINEA_5 { id:95,name:"Empalme"})
 		CREATE (:ESTACIÓN_METRO:LINEA_4 { id:96,name:"Esperanza"})
-		CREATE (:ESTACIÓN_METRO_LIGERO:ESTACIÓN_CERCANIAS:ML_2:RENFE_C7:RENFE_C10 { id:97,name:"Estación de Aravaca"})
+		CREATE (:ESTACIÓN_METRO_LIGERO:ESTACIÓN_CERCANÍAS:ML_2:RENFE_C7:RENFE_C10 { id:97,name:"Estación de Aravaca"})
 		CREATE (:ESTACIÓN_METRO:LINEA_7 { id:98,name:"Estadio Olímpico",cambio_tren:"si"})
 		CREATE (:ESTACIÓN_METRO:LINEA_1 { id:99,name:"Estrecho"})
 		CREATE (:ESTACIÓN_METRO:LINEA_9 { id:100,name:"Estrella"})
