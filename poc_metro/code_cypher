@@ -3,5 +3,5 @@ CREATE INDEX ON :ESTACIÓN_METRO(id)
 
 // Código para cargar las relaciones
 LOAD CSV FROM "file:///distancia_entre_estaciones.csv" AS row FIELDTERMINATOR " "
-MATCH(d:ESTACIÓN_METRO {id: toInt(row[0])}),(d1:ESTACIÓN_METRO {id: toInt(row[1])})
+MATCH(d {id: toInt(row[0])}),(d1 {id: toInt(row[1])})
 MERGE (d)-[r:TO {distance:toInt(row[2])}]->(d1)
